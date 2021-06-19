@@ -1,0 +1,12 @@
+nav{
+    width: 30%;
+    border-bottom: 2px solid rgb(184, 184, 184);
+    font-family:Crete Round,serif;
+    font-size: 3vw;
+    margin-left:calc(10%/6);
+    color: rgba(0, 0, 0, 0.712);
+}
+img{
+    width: 30%;
+    margin: calc(10%/6);
+}
