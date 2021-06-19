@@ -5,6 +5,7 @@ nav{
     font-size: 3vw;
     margin-left:calc(10%/6);
     color: rgba(0, 0, 0, 0.712);
+    letter-spacing: 5px;
 }
 img{
     width: 30%;
