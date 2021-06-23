@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+    /* width: 100%; */
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+
+.pokemon{
+    color: white;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.pokemon img{
+    /* background-color: rgba(94, 94, 94, 0.322); */
+    background-color: rgba(255, 255, 255, 0.938);
+    transition: .5s;
+}
+.pokemon img:hover{
+    background-color: rgb(0, 0, 0);
+    transform: rotateZ(360deg) scale(1.6) ;
+    cursor: pointer;
+
+}
