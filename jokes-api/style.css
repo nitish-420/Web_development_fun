@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+}
+
+.container{
+    width: 60%;
+    min-height: 100%;
+    background-color: #fffca9;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+h1{
+    padding: 20px;
+}
+input{
+    margin: 5px;
+    height: 30px;
+    padding: 10px 20px;
+    width: 60%;
+    font-size: 20px;
+}
+
+.jokesList{
+    text-align: left;
+    margin: 25px;
+}
+.jokesList li{
+    list-style: square;
+    padding: 10px 0px;
+    line-height: 25px;
+}
+
+@media (max-width:900px){
+    .container{
+        width: 80%;
+    }
+}
+@media (max-width:650px){
+    .container{
+        width: 100%;
+    }
+}
